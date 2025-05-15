@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #00D4FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+header{
+    padding: 25px;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+header h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-section{
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"]{
+    flex: 1;
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    
+}
+
+button{
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(255, 0, 204);
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: chartreuse;
+    color: black;
+}
+
+.todo-container{
+    padding: 20px;
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px  solid #fff;
+}
+
+.todo-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.todo-action button{
+    background: none;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
