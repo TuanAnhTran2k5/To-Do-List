@@ -45,7 +45,13 @@ input[type="text"]{
     border-radius: 5px;
     border: none;
     font-size: 16px;
+    transition: all 0.4s ease;
     
+}
+
+input[type="text"]:hover{
+    box-shadow: -3px 5px 15px 5px #4CFFAE;
+    transform: scale(1.01);
 }
 
 button{
