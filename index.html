@@ -13,18 +13,20 @@
         <header>
             <h1>TodoList Tuan Anh</h1>
             <div class="input-section">
-                <input type="text" placeholder="Add new task herer...">
-                <button>Add</button>
+                <input id="todo-input" type="text" placeholder="Add new task herer...">
+                <button id="add-btn" >Add</button>
             </div>
         </header>
 
         <main class="todo-container">
             <ul class="Todo-list">
-                <!-- <li class="todo-item">
+
+
+               <li class="todo-item">
                     <div class="todo-content">
                         <input type="checkbox">
                         <div>
-                            <span>Chao</span>
+                            <span>Test</span>
                             <br>
                             <span> Create At: 00:00</span>
                         </div>
@@ -32,107 +34,11 @@
                     </div>
 
                     <div class="todo-action">
-                        <button><i class="fa-solid fa-pen-to-square"></i></button>
+                        <button onclick="handleUpdate(1, '123')" ><i class="fa-solid fa-pen-to-square"></i></button>
                         <button><i class="fa-solid fa-trash"></i></button>
                     </div>
                 </li>
-                <li class="todo-item">
-                    <div class="todo-content">
-                        <input type="checkbox">
-                        <div>
-                            <span>Chao</span>
-                            <br>
-                            <span> Create At: 00:00</span>
-                        </div>
-
-                    </div>
-
-                    <div class="todo-action">
-                        <button><i class="fa-solid fa-pen-to-square"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                    </div>
-                </li>
-                <li class="todo-item">
-                    <div class="todo-content">
-                        <input type="checkbox">
-                        <div>
-                            <span>Chao</span>
-                            <br>
-                            <span> Create At: 00:00</span>
-                        </div>
-
-                    </div>
-
-                    <div class="todo-action">
-                        <button><i class="fa-solid fa-pen-to-square"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                    </div>
-                </li>
-                <li class="todo-item">
-                    <div class="todo-content">
-                        <input type="checkbox">
-                        <div>
-                            <span>Chao</span>
-                            <br>
-                            <span> Create At: 00:00</span>
-                        </div>
-
-                    </div>
-
-                    <div class="todo-action">
-                        <button><i class="fa-solid fa-pen-to-square"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                    </div>
-                </li>
-                <li class="todo-item">
-                    <div class="todo-content">
-                        <input type="checkbox">
-                        <div>
-                            <span>Chao</span>
-                            <br>
-                            <span> Create At: 00:00</span>
-                        </div>
-
-                    </div>
-
-                    <div class="todo-action">
-                        <button><i class="fa-solid fa-pen-to-square"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                    </div>
-                </li>
-                <li class="todo-item">
-                    <div class="todo-content">
-                        <input type="checkbox">
-                        <div>
-                            <span>Chao</span>
-                            <br>
-                            <span> Create At: 00:00</span>
-                        </div>
-
-                    </div>
-
-                    <div class="todo-action">
-                        <button><i class="fa-solid fa-pen-to-square"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                    </div>
-                </li>
-                <li class="todo-item">
-                    <div class="todo-content">
-                        <input type="checkbox">
-                        <div>
-                            <span>Chao</span>
-                            <br>
-                            <span> Create At: 00:00</span>
-                        </div>
-
-                    </div>
-
-                    <div class="todo-action">
-                        <button><i class="fa-solid fa-pen-to-square"></i></button>
-                        <button><i class="fa-solid fa-trash"></i></button>
-                    </div>
-                </li> -->
-
+               
 
 
             </ul>
@@ -142,6 +48,7 @@
 
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./index.js"></script>
 </body>
